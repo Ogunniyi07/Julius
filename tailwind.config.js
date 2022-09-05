@@ -23,7 +23,7 @@ module.exports = {
       '2xl': {max: '1536px'},
       // => @media (max-width: 1536px) { ... }
     },
-    extend: {},
+    extend: [],
   },
   plugins: [],
 }
