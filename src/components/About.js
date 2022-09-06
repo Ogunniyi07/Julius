@@ -2,16 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-[#000] w-[100%]" id='about'>
+    <div className="bg-[#000] w-[100%]" id="about">
       <h1 className="text-white text-[40px] font-bold text-center pt-[80px] md:pb-[30px] px-[20px] md:text-left">
         About
       </h1>
-      <div className="flex flex-row p-[100px] md:flex-col md:p-[20px]">
-        
-        
-        
-        
-        <div className="w-[50%]  md:w-[100%]  md:flex md:justify-start">
+      <div className="flex flex-row p-[70px] lg:flex-col md:p-[20px] ">
+        <div className="w-[50%] lg:w-[100%]  lg:flex lg:justify-center">
           <div className="bg-[#0a0a0a] h-[420px] w-[420px]  rounded-lg shadow-2xl flex justify-center overflow-hidden hover:scale-[1.05] ease-in duration-500">
             <img
               src="/images/juls.jpeg"
@@ -20,11 +16,7 @@ const About = () => {
             />
           </div>
         </div>
-
-
-
-
-        <div className="w-[50%] bg-[#0a0a0a] p-[50px] flex flex-col rounded-lg shadow-2xl md:w-[100%] md:justify-center md:flex md:mb-[100px] md:mt-[40px] md:p-[20px] md:px-[20px]">
+        <div className="w-[50%] bg-[#0a0a0a] p-[20px] flex flex-col rounded-lg shadow-2xl lg:w-[100%]  lg:flex lg:justify-center md:mb-[100px] lg:mt-[40px] md:p-[20px] md:px-[20px]">
           <p className="text-[18px] text-white">
             Hi, I'm Julius Ogunniyi, a confident and passionate web developer. I
             build interactive websites and web applications. I've always been
