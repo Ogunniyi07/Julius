@@ -28,7 +28,7 @@ const Portfolio = () => {
         <div className={image}>
           <a href="#" className="w-[100%] h-[100%]">
             <img
-              src="/images/store.png"
+              src="/images/store.webp"
               alt="shopping-store"
               className="w-[100%] h-[100%] object-contain"
             />
@@ -92,7 +92,7 @@ const Portfolio = () => {
         <div className={image}>
           <a href="#" className="w-[100%] h-[100%]">
             <img
-              src="/images/spenditure.png"
+              src="/images/spenditure.webp"
               alt="spenditure"
               className="w-[100%] h-[100%] object-contain"
             />
@@ -154,7 +154,7 @@ const Portfolio = () => {
         <div className={image}>
           <a href="#" className="w-[100%] h-[100%]">
             <img
-              src="/images/tmdb.png"
+              src="/images/tmdb.webp"
               alt="movie"
               className="w-[100%] h-[100%] object-contain"
             />
@@ -217,7 +217,7 @@ const Portfolio = () => {
         <div className={image}>
           <a href="#" className="w-[100%] h-[100%]">
             <img
-              src="/images/ise.png"
+              src="/images/ise.webp"
               alt="ise"
               className="w-[100%] h-[100%] object-contain"
             />

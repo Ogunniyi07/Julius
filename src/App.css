@@ -8,6 +8,7 @@
 html, body{
     height: 100%;
     overflow-x: hidden;
+    background: #000;
   }
 .title{
   font-family: 'Lusitana', serif;
