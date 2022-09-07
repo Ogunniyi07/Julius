@@ -27,7 +27,7 @@ const About = () => {
             React and I'm also very good with wordpress and other template
             creation platforms.
             <br />
-            <br />I usually spend my days coding, or learning something new and
+            I usually spend my days coding, or learning something new and
             now I seek new opportunities to develop my skills even further. I
             enjoy watching youtube videos on various software engineers, play
             video games, and visit art galleries.

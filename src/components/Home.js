@@ -43,12 +43,12 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="w-[44%] mt-[30px] lg:my-[100px] md:w-[100%] items-center md:items-start">
+        <div className="w-[44%] mt-[30px] lg:my-[30px] md:w-[100%] md:pt-[130px] items-center md:items-start">
           <div className="h-[90vh]  mt-20  md:my-[-190px]">
             <img
               src="/images/codeing.png"
               alt="hero-img"
-              className="h-[93%] w-[100%] object-contain lg:h-[100%] w-[100%]"
+              className="h-[93%] w-[100%] object-contain lg:h-[100%]"
             />
           </div>
         </div>

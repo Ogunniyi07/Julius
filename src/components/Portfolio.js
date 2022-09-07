@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 
 const Portfolio = () => {
@@ -48,6 +50,14 @@ const Portfolio = () => {
           </ul>
           <div className={link}>
             <a href="https://shopping-store-two.vercel.app/" target="_blank">
+              <a
+                className="hover:text-[#FF9900] duration-100"
+                href="https://github.com/Ogunniyi07/ShoppingStore"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <p
                 className="
                 inline-block
@@ -102,6 +112,14 @@ const Portfolio = () => {
           </ul>
           <div className={link}>
             <a href="https://spenditure-topaz.vercel.app/" target="_blank">
+              <a
+                className="hover:text-[#FF9900] duration-100"
+                href="https://github.com/Ogunniyi07/spenditure"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <p
                 className="
                 inline-block
@@ -157,6 +175,14 @@ const Portfolio = () => {
           </ul>
           <div className={link}>
             <a href="https://cart-bice.vercel.app/" target="_blank">
+              <a
+                className="hover:text-[#FF9900] duration-100"
+                href="https://github.com/Ogunniyi07/PLUG-Movie"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <p
                 className="
                 inline-block
@@ -213,6 +239,14 @@ const Portfolio = () => {
           </ul>
           <div className={link}>
             <a href="https://ise-works.vercel.app/" target="_blank">
+              <a
+                className="hover:text-[#FF9900] duration-100"
+                href="https://github.com/Ogunniyi07/ise-works"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <p
                 className="
                 inline-block
