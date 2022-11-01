@@ -8,7 +8,7 @@ const Portfolio = () => {
   const image =
     "group relative w-[50%] h-[50vh] flex justify-center items-center md:w-[100%] lg:bg-[#fff] md:justify-start object-cover lg:mr-[10px]";
   const container =
-    "relative w-[40%] flex flex-col justify-center mt-[52px] ml-[-150px] md:w-[100%] md:mb-[50px] lg:ml-[0px] lg:mt-[0px] text-white text-[18px]";
+    "relative w-[40%] flex flex-col justify-center mt-[52px] ml-[-150px] md:w-[100%] md:mb-[50px] lg:ml-[0px] lg:mt-[0px] text-white text-[18px] animation-box";
   const desp =
     "w-[100%] h-[20vh] flex flex-col justify-center bg-[#000] lg:bg-[#ff9900] my-[20px] px-[20px] lg:py-[50px] rounded shadow-xl md:w-[100%] md:mb-[50px] text-white text-[18px] ";
   const title =

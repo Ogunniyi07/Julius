@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className="w-[50%] bg-[#0a0a0a] p-[20px] flex flex-col rounded-lg shadow-2xl lg:w-[100%]  lg:flex lg:justify-center md:mb-[100px] lg:mt-[40px] md:p-[20px] md:px-[20px]">
           <p className="text-[18px] text-white">
-            Hi, I'm Julius Ogunniyi, a confident and passionate web developer. I
+            Hi, I'm Julius Ogunniyi, a confident and passionate Frontend Developer/Web developer. I
             build interactive websites and web applications. I've always been
             passionate about problem solving as this is what got me into coding.
             <br />
@@ -26,14 +26,10 @@ const About = () => {
             My core skills are based on javascript, I am highly proficient in
             React and I'm also very good with wordpress and other template
             creation platforms.
-            <br />I usually spend my days coding, or learning something new and
-            now I seek new opportunities to develop my skills even further. I
-            enjoy watching youtube videos on various software engineers, play
-            video games, and visit art galleries.
           </p>
           <button className="btn">
             <a
-              href="https://drive.google.com/file/d/1wkBhCCjJbRUtDAveVdg3Og4qXbgilQbJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1g9-ncDNNqYWr5wnMGPmQZgJJkaKXWfWK/view?usp=share_link"
               target="_blank"
             >
               View Resume
