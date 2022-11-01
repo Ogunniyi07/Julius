@@ -24,9 +24,73 @@ const Portfolio = () => {
       <div className="text-white text-[40px] pt-[100px] pb-[40px] font-bold text-center md:text-left md:pl-[20px]">
         Projects
       </div>
+
       <div className={projects}>
         <div className={image}>
-          <a href="#" className="w-[100%] h-[100%]">
+          <a href="https://hoobank-ruddy.vercel.app/" target="_blank" className="w-[100%] h-[100%]">
+            <img
+              src="/images/HooBank.jpg"
+              alt="shopping-store"
+              className="w-[100%] h-[100%] object-contain"
+            />
+            <div className="absolute top-0 left-0 w-[82.5%] h-0 ml-[55px] flex flex-col justify-center items-center bg-gray-200 opacity-0 group-hover:h-full group-hover:opacity-80 duration-500 md:w-[100%] md:ml-[0px] lg:w-[100%] lg:ml-[0px]"></div>
+          </a>
+        </div>
+        <div className={container}>
+          <h2 className={title}>HooBank</h2>
+          <div className={desp}>
+            <p className={text}>
+              A Fintech App for the Next generation Payment Method
+            </p>
+          </div>
+          <ul className={list}>
+            <li className="pl-[10px]">React</li>
+            <li className="pl-[10px]">Tailwindcss</li>
+          </ul>
+          <div className={link}>
+            <a href="https://hoobank-ruddy.vercel.app/" target="_blank">
+              <a
+                className="hover:text-[#FF9900] duration-100"
+                href="https://github.com/Ogunniyi07/Next-generation-app"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <p
+                className="
+                inline-block
+                text-[18px]
+                relative
+                transition-all
+                duration-500
+                before:content-['']
+                before:absolute
+                before:-bottom-0.5
+                before:left-1/2
+                before:-translate-x-1/2
+                before:w-0
+                before:h-0.5
+                before:transition-all
+                before:duration-500
+                before:bg-gradient-to-r
+                before:from-white
+                before:via-slate-400
+                before:to-[#ff9900]
+                hover:before:w-full
+                hover:before:opacity-100"
+              >
+                Visit site
+              </p>{" "}
+              &#8594;
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className={projects}>
+        <div className={image}>
+          <a href="https://shopping-store-two.vercel.app/" target="_blank" className="w-[100%] h-[100%]">
             <img
               src="/images/Store.jpeg"
               alt="shopping-store"
@@ -90,7 +154,7 @@ const Portfolio = () => {
       </div>
       <div className={projects}>
         <div className={image}>
-          <a href="#" className="w-[100%] h-[100%]">
+          <a href="https://spenditure-topaz.vercel.app/" target="_blank" className="w-[100%] h-[100%]">
             <img
               src="/images/spenditure.webp"
               alt="spenditure"
@@ -152,7 +216,7 @@ const Portfolio = () => {
       </div>
       <div className={projects}>
         <div className={image}>
-          <a href="#" className="w-[100%] h-[100%]">
+          <a href="https://cart-bice.vercel.app/" target="_blank" className="w-[100%] h-[100%]">
             <img
               src="/images/tmdb.webp"
               alt="movie"
@@ -215,7 +279,7 @@ const Portfolio = () => {
       </div>
       <div className={projects}>
         <div className={image}>
-          <a href="#" className="w-[100%] h-[100%]">
+          <a href="https://ise-works.vercel.app/" target="_blank" className="w-[100%] h-[100%]">
             <img
               src="/images/ISE.jpeg"
               alt="ise"
