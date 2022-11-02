@@ -29,8 +29,8 @@ const Portfolio = () => {
         <div className={image}>
           <a href="https://hoobank-ruddy.vercel.app/" target="_blank" className="w-[100%] h-[100%]">
             <img
-              src="/images/HooBank.jpg"
-              alt="shopping-store"
+              src="/images/HooBank.webp"
+              alt="Hoobank"
               className="w-[100%] h-[100%] object-contain"
             />
             <div className="absolute top-0 left-0 w-[82.5%] h-0 ml-[55px] flex flex-col justify-center items-center bg-gray-200 opacity-0 group-hover:h-full group-hover:opacity-80 duration-500 md:w-[100%] md:ml-[0px] lg:w-[100%] lg:ml-[0px]"></div>
