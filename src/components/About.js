@@ -18,14 +18,14 @@ const About = () => {
         </div>
         <div className="w-[50%] bg-[#0a0a0a] p-[20px] flex flex-col rounded-lg shadow-2xl lg:w-[100%]  lg:flex lg:justify-center md:mb-[100px] lg:mt-[40px] md:p-[20px] md:px-[20px]">
           <p className="text-[18px] text-white">
-            Hi, I'm Julius Ogunniyi, a confident and passionate Frontend Developer/Web developer. I
-            build interactive websites and web applications. I've always been
-            passionate about problem solving as this is what got me into coding.
+            Hi, I'm Julius Ogunniyi, a confident and passionate Frontend Developer/Web developer.
+            Experienced with a strong skill set in HTML, CSS, JavaScript and popular frameworks. 
+            Focuses on delivering responsive, high-performance web applications with exceptional user experience. 
+            Committed to staying up-to-date with industry trends and continuously improving skills.
             <br />
             <br />
-            My core skills are based on javascript, I am highly proficient in
-            React and I'm also very good with wordpress and other template
-            creation platforms.
+            Passionate about creating visually appealing and intuitive interfaces that enhance user experience and drive business goals.
+            I'm also very good with wordpress and other template creation platforms.
           </p>
           <button className="btn">
             <a
